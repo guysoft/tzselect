@@ -1,0 +1,6 @@
+tzselect dependencies:
+    - pytz
+    - webhelpers (for webhelpers.html.tags.select)
+
+>>> from tzselect import tzselect
+>>> tzselect('timezones', 'US/Pacific')
